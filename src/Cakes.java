@@ -16,20 +16,24 @@ public class Cakes {
         //Ahora vamos a escribir un programa que convierta un valor de tipo double a int y de int a double. 
 
         //Declara y asigna un valor a una variable double
+        double precio = 5.99;
         //Escribe aquí tu código
-        System.out.println("Valor original de double: <doubleValue>");
+
+        System.out.println("Valor original de double:" + precio);
 
         //Convierte double a int
+        //double precio = 5.99;
         //Escribe aquí tu código
-        System.out.println("Valor convertido de double a int: <intValue>");
+        System.out.println("Valor convertido de double a int:" + (int)precio);
 
         //Declara y asigna un valor a una variable int
+        int edad = 47;
         //Escribe aquí tu código
-        System.out.println("Valor original de int: <anotherIntValue>");
+        System.out.println("Valor original de int:" + edad);
 
         //Convierte int a double
         //Escribe aquí tu código
-        System.out.println("Valor convertido de int a double: <anotherDoubleValue>");
+        System.out.println("Valor convertido de int a double:" + (double)edad);
                
     }
 }
